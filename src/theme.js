@@ -6,62 +6,61 @@ export const tokens = (mode) => ({
     
     ...createContext(mode === "dark")?
     {
-       
         grey: {
-            100: "#e1e2fe",
-            200: "#c3c6fd",
-            300: "#a4a9fc",
-            400: "#868dfb",
-            500: "#6870fa",
-            600: "#535ac8",
-            700: "#3e4396",
-            800: "#2a2d64",
-            900: "#151632"
-        },
-        primary: {
-            100: "#dbf5ee",
-            200: "#b7ebde",
-            300: "#94e2cd",
-            400: "#70d8bd",
-            500: "#4cceac",
-            600: "#3da58a",
-            700: "#2e7c67",
-            800: "#1e5245",
-            900: "#0f2922"
-        },
-        greenAccent: {
-            100: "#f8dcdb",
-            200: "#f1b9b7",
-            300: "#e99592",
-            400: "#e2726e",
-            500: "#db4f4a",
-            600: "#af3f3b",
-            700: "#832f2c",
-            800: "#58201e",
-            900: "#2c100f"
-        },
-        redAccent: {
-            100: "#d0d1d5",
-            200: "#a1a4ab",
-            300: "#727681",
-            400: "#434957",
-            500: "#141b2d",
-            600: "#101624",
-            700: "#0c101b",
-            800: "#080b12",
-            900: "#040509"
-        },
-        blueAccent: {
-            100: "#e0e0e0",
+            100: "#e1e1e1",
             200: "#c2c2c2",
             300: "#a3a3a3",
             400: "#858585",
             500: "#666666",
-            600: "#525252",
-            700: "#3d3d3d",
-            800: "#292929",
-            900: "#141414"
+            600: "#4d4d4d",
+            700: "#333333",
+            800: "#1a1a1a",
+            900: "#000000"
         },
+        primary: {
+            100: "#e0e0fc",
+            200: "#c1c2f9",
+            300: "#a1a3f7",
+            400: "#8285f4",
+            500: "#5545a0",
+            600: "#4f52c1",
+            700: "#3b3d91",
+            800: "#282960",
+            900: "#141430"
+        },
+        greenAccent: {
+            100: "#f0f5f5",
+            200: "#d9eaea",
+            300: "#c2dfdf",
+            400: "#abcaca",
+            500: "#94bfbf",
+            600: "#7ea6a6",
+            700: "#678d8d",
+            800: "#517474",
+            900: "#3a5b5b"
+        },
+        redAccent: {
+            100: "#ffdbdb",
+            200: "#ffb2b2",
+            300: "#ff8888",
+            400: "#ff5f5f",
+            500: "#ff3636",
+            600: "#db2d2d",
+            700: "#b22424",
+            800: "#8d1b1b",
+            900: "#661212"
+        },
+        blueAccent: {
+            100: "#cce0f2",
+            200: "#99c1e5",
+            300: "#66a2d8",
+            400: "#3383cb",
+            500: "#0064be",
+            600: "#00519b",
+            700: "#003d78",
+            800: "#002a55",
+            900: "#001732"
+        }
     }:
     {
         grey: {
@@ -76,15 +75,15 @@ export const tokens = (mode) => ({
             900: "#e1e2fe",
         },
         primary: {
-            100: "#0f2922",
-            200: "#1e5245",
-            300: "#2e7c67",
-            400: "#3da58a",
-            500: "#4cceac",
-            600: "#70d8bd",
-            700: "#94e2cd",
-            800: "#b7ebde",
-            900: "#dbf5ee",
+            100: "#141430",
+            200: "#282960",
+            300: "#3b3d91",
+            400: "#4f52c1",
+            500: "#6366f1", 
+            600: "#8285f4",
+            700: "#a1a3f7",
+            800: "#c1c2f9",
+            900: "#e0e0fc",
         },
         greenAccent: {
             100: "#2c100f",
@@ -162,30 +161,30 @@ export const themeSettings = (mode) => {
             })
         },
         typography:{
-            fontFamily: ["Roboto","sans-serif"].join(","),
+            fontFamily: ["Source Sans Pro","sans-serif"].join(","),
             fontSize: 12,
             h1: {
-                fontFamily: ["Roboto","sans-serif"].join(","),
+                fontFamily: ["Source Sans Pro","sans-serif"].join(","),
                 fontSize: 40,
             },
             h2: {
-                fontFamily: ["Roboto","sans-serif"].join(","),
+                fontFamily: ["Source Sans Pro","sans-serif"].join(","),
                 fontSize: 32,
             },
             h3: {
-                fontFamily: ["Roboto","sans-serif"].join(","),
+                fontFamily: ["Source Sans Pro","sans-serif"].join(","),
                 fontSize: 24,
             },
             h4: {
-                fontFamily: ["Roboto","sans-serif"].join(","),
+                fontFamily: ["Source Sans Pro","sans-serif"].join(","),
                 fontSize: 20,
             },
             h5: {
-                fontFamily: ["Roboto","sans-serif"].join(","),
+                fontFamily: ["Source Sans Pro","sans-serif"].join(","),
                 fontSize: 16,
             }, 
             h6: {
-                fontFamily: ["Roboto","sans-serif"].join(","),
+                fontFamily: ["Source Sans Pro","sans-serif"].join(","),
                 fontSize: 14,
             }
         }
