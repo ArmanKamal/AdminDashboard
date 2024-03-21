@@ -2,14 +2,13 @@ import React from 'react'
 import { useState} from 'react'
 import { ProSidebar, Menu, MenuItem } from 'react-pro-sidebar'
 import "react-pro-sidebar/dist/css/styles.css";
-import { Avatar, Box, IconButton, Typograpgy, Typography, useTheme } from '@mui/material'
+import { Avatar, Box, IconButton, Typography, useTheme } from '@mui/material'
 import {Link} from 'react-router-dom';
 import { tokens } from '../../theme'
 import  HomeOutlined  from '@mui/icons-material/HomeOutlined';
 import  PeopleOutlineOutlined  from '@mui/icons-material/PeopleOutlineOutlined';
 import  ContactsOutlined  from '@mui/icons-material/ContactsOutlined';
 import  ReceiptOutlined  from '@mui/icons-material/ReceiptOutlined';
-import  PersonOutlined  from '@mui/icons-material/PersonOutlined';
 import  CalendarTodayOutlined  from '@mui/icons-material/CalendarTodayOutlined';
 import  HelpOutlined  from '@mui/icons-material/HelpOutlined';
 import  BarChartOutlined  from '@mui/icons-material/BarChartOutlined';
