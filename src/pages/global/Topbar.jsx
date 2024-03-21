@@ -9,6 +9,7 @@ import  NotificationsOutlinedIcon  from '@mui/icons-material/NotificationsOutlin
 import  SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import  PersonOutlinedIcon  from '@mui/icons-material/PersonOutlined';
 import  SearchIcon  from '@mui/icons-material/Search';
+import { Link } from 'react-router-dom';
 
 
 const Topbar = () => {
@@ -30,15 +31,12 @@ const Topbar = () => {
             </Box>
             {/* Icon Section */}
             <Box display="flex">
-                <IconButton>
-                    <NotificationsOutlinedIcon />
-                </IconButton>
-                <IconButton>
-                    <SettingsOutlinedIcon />
-                </IconButton>
-                <IconButton>
-                    <PersonOutlinedIcon />
-                </IconButton>
+                <Link to="/forms">
+                    <IconButton>
+                        <PersonOutlinedIcon/>
+                    </IconButton>
+                </Link>
+             
                 <IconButton onClick={colorMode.toggleColorMode}>
                     {theme.palette.mode == "dark" ? (
                         <DarkModeOutlinedIcon />
